@@ -16,7 +16,7 @@ Color palette comes from Adobe: https://color.adobe.com/Vintage-Romantic-color-t
     margin: auto;
     padding: 10px;
     border: 2px solid #BFAF80;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .header a {
@@ -51,6 +51,7 @@ Color palette comes from Adobe: https://color.adobe.com/Vintage-Romantic-color-t
 .projects div {
     border: 5px solid #BFAF80;
     border-radius: 25px;
+    padding: 1em;
     margin: 1em;
     background-color: #F2EEB3;
 }
