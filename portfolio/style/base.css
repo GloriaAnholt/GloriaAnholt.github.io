@@ -2,9 +2,6 @@
 /* Ordered lists should have dots. Ever. */
 ul {
     list-style-type: none;
-    width: 95%;
-    text-align: center;
-    margin: auto;
 }
 
 /* Body styling */
@@ -13,8 +10,17 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
 h2 {
     color: #260126;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: .9em;
 }
 
 /* Link Styles */
