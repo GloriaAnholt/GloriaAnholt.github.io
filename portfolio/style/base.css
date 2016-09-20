@@ -1,0 +1,94 @@
+/* Ordered lists should have dots. Ever. */
+ul {
+    list-style-type: none;
+}
+
+/* Body styling */
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #260126;
+}
+
+/* Link Styles */
+a, a:link, a:active {
+    text-decoration: none;
+}
+
+
+/* Media Query Stuff */
+@media only screen and (min-width: 450px) {
+
+    .header img {
+        border-radius: 100px;
+        max-width: 100px;
+        height: auto;
+    }
+
+    .header ul {
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .header li {
+        display: inline;
+        width: 40px;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+
+    .header img {
+        border-radius: 100px;
+        max-width: 150px;
+        height: auto;
+        clear: both;
+    }
+
+    .header ul {
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+        display: inline-block;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .header li {
+        display: inline;
+        width: 40px;
+        padding: 5px 10px 5px 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .header img {
+        border-radius: 100px;
+        max-width: 250px;
+        height: auto;
+        clear: both;
+    }
+
+    .header ul {
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+        display: inline-block;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .header li {
+        display: inline;
+        width: 40px;
+        padding: 5px 10px 5px 10px;
+    }
+
+}
